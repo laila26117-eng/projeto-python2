@@ -1,0 +1,27 @@
+def soma(n1,n2):
+    print(f"O resultado da soma é {n1+n2}")
+
+
+def subtracao(n1,n2):
+    print(f"O resultado da subtração é: {n1-n2}")
+
+
+def multiplicacao(n1,n2):
+    print(f"O resultado da multiplicação é {n1*n2}")
+
+
+def divisao(n1,n2):
+    print(f"O resultado da divisão é {n1/n2}")
+
+
+print("Calculadora")
+
+
+numero1=float(input("Digite o primeiro número: "))
+numero2=float(input("Digite o segundo número: "))
+
+
+soma(numero1,numero2)
+subtracao(numero1,numero2)
+multiplicacao(numero1,numero2)
+divisao(numero1,numero2)
